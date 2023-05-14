@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+/*============================================================= Home photo section start ========================================================*/
+.home-photo{
+    width: 100%;
+    height:400px;
+}
+.home-photo h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-top: 190px;
+    margin-left: 47%;
+    font-size: 45px;
+}
+.home-photo img{
+    width:100%;
+    height:100%;
+}
+
+/*============================================================= Home photo section End ========================================================*/
+
+/*============================================================= Paragraph section start ========================================================*/
+
+.paragarph-section{
+    display:flex;
+    padding-top:170px;
+    padding-bottom: 170px;
+}
+.paragarph-section div{
+    width:50%;
+}
+.paragarph-section h1{
+    width: 80%;
+    margin: auto;
+    font-size: 45px;
+}
+.paragarph-section p{
+    width:80%;
+    margin-left: 37px;
+    color: rgb(120,120,120);
+    line-height: 30px;
+}
+/*============================================================= Paragraph section end ========================================================*/
+
+
+/*============================================================= News-navbar section start ========================================================*/
+.news-navbar{
+    width:37%;
+    margin: auto;
+    height:50px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.news-navbar ul{
+    display: flex;
+    list-style: none;
+    width:100%;
+    height:100%;
+    
+}
+.news-navbar ul li{
+    width:25%;
+    height:100%;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+.news-navbar ul li:nth-child(1){
+    background-color:rgb(8, 8, 111);
+    color:white;
+}
+.news-navbar ul li:hover{
+  background-color: #14539a;
+    color:white;
+}
+/*============================================================= News-navbar section end ========================================================*/
+
+/*============================================================= tweets-section Start ========================================================*/
+.tweets-section{
+    display:flex;
+    width:90%;
+    margin: auto;
+    padding-top: 80px;
+}
+.tweets-section .col1{
+    width:30%;
+    margin: auto;
+}
+.tweets-section .col2{
+    width:30%;
+    margin: auto;
+}
+.tweets-section .col3{
+    width:30%;
+    margin: auto;
+}
+.first-box{
+    width:100%;
+    box-shadow: 3px 3px 3px 3px rgb(216, 216, 216);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.first-box:hover{
+    transform: scale(1.04);
+    transition: all 0.5s ease-in-out;
+}
+.first-box img{
+    width:100%;
+    height:250px;
+}
+.first-box div:nth-child(2){
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.first-box div p:nth-child(1){
+    color:  rgb(1, 1, 42);
+    font-size: 20px;
+}
+.first-box div h2{
+    margin-top:26px ;
+    line-height: 35px;
+}
+.first-box div p:nth-child(3){
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-size: 19px;
+    color:rgb(0, 0, 0);
+}
+.first-box div p:nth-child(4){
+    font-size: 18px;
+    color:rgba(8, 8, 8, 0.793);
+    line-height: 25px;
+}
+.first-box div p:nth-child(5){
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.second-box{
+    width: 98%;
+    box-shadow: 3px 3px 3px 3px rgb(216, 216, 216);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.second-box:hover{
+    transform: scale(1.04);
+    transition: all 0.5s  ease-in-out;
+}
+.second-box div:nth-child(1){
+    display:flex;
+    align-items: center;
+}
+.second-box div:nth-child(1) img{
+    width: 50px;
+    height:50px;
+    margin-right:30px;
+}
+.second-box div:nth-child(1) i{
+    color:rgba(9, 9, 244, 0.663);
+    margin-left:10px;
+    font-size: 22px;
+}
+.second-box div:nth-child(2){
+    padding-top: 4px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+.second-box div:nth-child(2) p{
+    line-height: 23px;
+    color:rgb(118, 110, 110);
+    padding-bottom: 8px;
+}
+
+.third-box{
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgb(216, 216, 216);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.third-box:hover{
+    transform: scale(1.04);
+    transition: all 0.5s ease-in-out;
+}
+.third-box p:nth-child(1){
+    color:rgb(1, 1, 75);
+    margin-bottom:20px;
+    font-size: 17px;
+}
+.third-box h2{
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+.third-box p:nth-child(3){
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.third-box p:nth-child(4){
+    line-height: 25px;
+    font-size: 19px;
+    color: rgba(97, 92, 92, 0.726);
+    margin-bottom: 20px;
+}
+.third-box p:nth-child(5){
+    font-size: 21px;
+}
+
+.tweets-section .col2 .second-box{
+    margin-top: 0px;
+}
+.tweets-section .col3 .third-box{
+    margin-top: -25px;
+}
+
+.next-page{
+    width:20%;
+    display:flex;
+    margin: auto;
+    margin-top: 50px;
+}
+.next-page div{
+    width:70px;
+    margin: auto;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height:60px;
+    padding-top: 10px;
+}
+.next-page div:hover{
+    background-color:rgb(5, 5, 116);
+    color:white;
+}
+.next-page div:nth-child(1){
+    background-color:rgb(5, 5, 116);
+    color:white;
+}
+
+/*============================================================= tweets-section End ========================================================*/

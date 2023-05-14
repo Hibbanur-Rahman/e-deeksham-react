@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*============================================================= Footer Section start ========================================================*/
+
+.footer {
+    background-color: #14539a;
+    color: white;
+    margin: auto;
+    width: 100%;
+    height: 530px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.footer-upper {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.footer-first {
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.footer-first p {
+    opacity: 0.9;
+}
+
+.footer-first .footer-image {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.footer-first .footer-image img {
+    width: 150px;
+    height: 100px;
+}
+
+.footer-second {
+    width: 10%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.footer-second ul {
+    margin-top: 20px;
+}
+
+.footer-second li {
+    list-style: none;
+    opacity: 0.9;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-third {
+    width: 23%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.footer-third div {
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.footer-third div i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.footer-third h3:nth-child(5) {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-third i {
+    font-size: 30px;
+    color: #a9c5f6;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.footer-lower {
+    display: flex;
+    border-top: 1px solid white;
+    width: 73%;
+    margin: auto;
+    font-size: 15px;
+}
+
+.footer-lower div {
+    width: 50%;
+}
+
+.face:hover {
+    color: #003cff;
+}
+
+.tweet:hover {
+    color: #00ccff;
+}
+
+.yt:hover {
+    color: #ff0e0e;
+}
+
+
+/*============================================================= Footer Section End ========================================================*/
+
+
+@media only screen and (max-width: 1300px) {
+
+    body {
+        width: 139%;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navlist .list-item {
+        flex-direction: column;
+        font-size: 40px;
+
+    }
+
+    .navlist .list-item .item {
+        font-size: 58px;
+        height: 100%;
+    }
+
+    .dropdown {
+        font-size: 58px;
+        margin-top: 82px;
+    }
+
+    .navlist .list-item a {
+        margin-top: 70px;
+        height: 120px;
+    }
+
+    .dropdown .dropdown-btn {
+        font-size: 65px;
+        width: 250px;
+    }
+
+    .dropdown-options {
+        height: 0px;
+        opacity: 0%;
+    }
+
+    .dropdown:hover .dropdown-options {
+        width: 450px;
+        z-index: -1;
+        position: relative;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .dropdown button {
+        font-size: 40px;
+    }
+
+    .nav-btn {
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .school-details {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background: white;
+    }
+
+    .school-details .details-box {
+        width: 90%;
+        height: 500px;
+        margin-top: 90px;
+        margin-bottom: 80px;
+        font-size: 40px;
+    }
+
+    .school-details .details-box .details-image {
+        margin-left: 482px;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: -93px;
+    }
+
+    .details-image img {
+        width: 149px;
+        height: 154px;
+        margin-top: 1px;
+        margin-right: 50px
+    }
+
+    .details-box:nth-child(3) img {
+        width: 150px;
+        height: 150px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+
+    .details-box h1 {
+        font-size: 160px;
+    }
+
+    .details-box p {
+        font-size: 70px;
+    }
+
+    .about-us {
+        flex-direction: column;
+        width: 100%;
+        height: 3850px;
+    }
+
+    .about-us-content {
+        width: 100%;
+    }
+
+    .about-us .content-lower {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .content-upper p:nth-child(1) {
+        font-size: 59px;
+    }
+
+    .content-upper h1 {
+        font-size: 74px;
+        width: 100%;
+        line-height: normal;
+    }
+
+    .content-upper p:nth-child(3) {
+        width: 96%;
+        margin-bottom: 38px;
+        font-size: 45px;
+        text-align: justify;
+    }
+
+    .about-us-content .content-lower .our-mission,
+    .our-vision {
+        width: 92%;
+        margin-right: 0px;
+        padding: 35px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        padding-bottom: 50px;
+    }
+
+    .about-us-content .content-lower .our-mission div {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-us-content .content-lower img {
+        width: 172px;
+        height: 172px;
+        margin-left: 31px;
+        margin-top: 45px;
+    }
+
+    .about-us-content .content-lower h1 {
+        font-size: 82px;
+    }
+
+    .content-lower p {
+        font-size: 45px;
+    }
+
+    .about-us-content .content-lower .our-vision div {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-us-image {
+        width: 92%;
+        margin: auto;
+        margin-top: 80px;
+        height: 1000px;
+    }
+
+    .about-us-img {
+        width: 100%;
+        height: 131%;
+    }
+
+    .about-us-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 85px;
+    }
+
+    .about-us-image .box-background {
+        display: none;
+    }
+
+
+
+    .map-section {
+        height: 4225px;
+    }
+
+    .map-section-div {
+        width: 100%;
+        background-color: rgb(238, 243, 253);
+        border: 0px solid white;
+        flex-direction: column-reverse;
+    }
+
+    .analysis {
+        width: 100%;
+        height: 2630px;
+    }
+
+    .analysis-nav {
+        border-radius: 50px;
+        width: 93%;
+        margin-bottom: 20px;
+        margin: auto;
+        height: 170px;
+    }
+
+    .analysis-nav ul {
+        display: flex;
+        width: 105%;
+        height: 100%;
+    }
+
+    .analysis-nav ul li {
+        font-size: 51px;
+        padding-top: 45px;
+    }
+
+    .analysis-nav ul li:nth-child(3) {
+        padding-top: 30px;
+        line-height: 54px;
+    }
+
+    .analysis .para {
+        width: 82%;
+        margin: auto;
+        font-size: 51px;
+        margin-left: 67px;
+        margin-top: 50px;
+    }
+
+    .states-selection select {
+        width: 90%;
+        height: 85px;
+        border-radius: 20px;
+        font-size: 41px;
+        padding-left: 50px;
+        padding-right: 10px;
+        margin: auto;
+        margin-left: 70px;
+        appearance: none;
+        margin-top: 50px;
+    }
+
+    .state-data {
+        width: 90%;
+        height: 450px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .state-data table {
+        border-radius: 35px;
+        margin-top: 60px;
+    }
+
+    .state-data table tr:nth-child(1) {
+        height: 150px;
+        font-size: 51px;
+        border-top-right-radius: 40px;
+    }
+
+    .state-data table tr:nth-child(1) td:nth-child(3) {
+        width: 25%;
+    }
+
+    .state-data table tr {
+        font-size: 41px;
+        height: 115px;
+    }
+
+    .details-analysis-box-container {
+        margin-top: 1000px;
+        font-size: 51px;
+    }
+
+    .details-s-box {
+        width: 590px;
+    }
+
+    .third-last {
+        font-size: 51px;
+        width: 620px;
+        margin-top: 55px;
+    }
+
+    .india-map {
+        width: 100%;
+        height: 1360px;
+    }
+
+    .container {
+        width: 1210px;
+        margin: auto;
+        height: 1360px;
+    }
+
+
+
+    .process-section {
+        flex-direction: column;
+        width: 100%;
+        height: 3000px;
+    }
+
+    .process-image {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .process-section-img {
+        width: 92%;
+        margin: auto;
+    }
+
+    .process-section-img img {
+        width: 100%;
+        height: 1120px;
+        border-radius: 80px;
+    }
+
+    .process-section .box-background {
+        display: none;
+    }
+
+    .process-theory {
+        width: 92%;
+        margin: auto;
+    }
+
+    .first-p {
+        font-size: 59px;
+        margin-top: 50px;
+    }
+
+    .process-theory h1 {
+        width: 100%;
+        line-height: 112px;
+        font-size: 103px;
+        margin-top: 20px;
+    }
+    .process-theory p:nth-child(3) {
+        font-size: 47px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .process-theory ul li{
+        font-size: 47px;
+        width: 96%;
+        text-align: justify;
+        margin-top: 30px;
+    }
+    .process-theory ul li i {
+        font-size: 78px;
+        margin-right: 40px;
+        
+    }
+}
+
+.demo {
+    width: 0px;
+    height:0px;
+    position: absolute;
+    height: 100%;
+    background-color: rgb(162, 156, 156);
+    margin-left: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.hide1 {
+    /* display: none; */
+    width: 0px;
+    height: 0px;
+    transition: all 0.6s ease-in-out;
+}
+
+.show1 {
+    /* display: block; */
+    height:500px;
+    width:500px;
+    transition: all 0.6s ease-in-out;
+
+}
+.delete {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    padding-top: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #ef2323;
+}
+
+.navlist-show {
+    z-index: 2;
+    opacity: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.navlist-hide {
+    z-index: -1;
+    opacity: 0%;
+    transition: all 0.6s ease-in-out;
+}
+
+.navbar-height {
+    height: 1342px;
+    transition: all 0.6s ease-in-out;
+    overflow: hidden;
+}
+
+.navbar-height-dec {
+    height: 80px;
+    transition: all 0.6s ease-in-out;
+}
+
+.ham-position {
+    margin-top: -478px;
+    transition: all 0.6s ease-in-out;
+}
+
+.dropdown-height {
+    height: 641px;
+    transition: all 0.6s ease-in-out;
+    position: relative;
+    opacity: 100%;
+    overflow: hidden;
+}

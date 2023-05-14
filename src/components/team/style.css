@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/*============================================================= Our Team start ========================================================*/
+
+.ourteam {
+    /* width: 100%;
+    height:100% ; */
+    height: auto;
+    width: auto;
+    background: #fff;
+}
+
+.ourteam img {
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+
+/*============================================================= Our Team end ========================================================*/
+
+
+/*============================================================= Our leaders start ========================================================*/
+
+.OurLeaders {
+    height: auto;
+    width: auto;
+    background: #fff;
+}
+
+.OurLeaders h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    margin-top: 5%;
+}
+
+.leaders1 {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.paragraph-team{
+    padding-left: 24px;
+    padding-right: 16%;
+    margin-top: 7%;
+    width: 60%
+}
+.icon{
+    margin-top: 3%;
+    display: flex;
+}
+.paragraph-team .icon i{
+    width: 37px;
+    height: 33px;
+    padding-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(135 200 221);
+    font-size: 23px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+    
+.paragraph-team .icon i:hover{
+    background-color: rgb(6, 6, 73);
+    color:  rgb(135 200 221);
+}
+.paragraph-team .icon svg{
+    width: 37px;
+    height: 33px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color:  rgb(135 200 221);
+    font-size: 23px;
+    margin-bottom: -7px;
+}
+.paragraph-team .icon svg:hover{
+    background-color: rgb(6, 6, 73);
+    fill: rgb(135 200 221);
+}
+.paragraph-team p {
+    margin-top: 3%;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.paragraph-team h5 {
+    margin-top: 2%;
+}
+
+.paragraph-team hr {
+    height: 1.5px;
+    width: 177px;
+    border-width: 0;
+    color: darkblue;
+    background-color: darkblue;
+    margin-top: 20px;
+}
+
+
+
+.L1 {
+    width: 40%;
+    margin-top: 85px;
+    padding-top: 65px;
+}
+
+.L1 .l1-image {
+    width: 360px;
+    height: 360px;
+    /* transform: rotate(45deg); */
+    overflow: hidden;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.L1 img {
+    width: 360px;
+    height: 360px;
+    /* transform: rotate(-45deg); */
+    position: absolute;
+    /* margin-top: -61px;
+    margin-left: -63px; */
+}
+
+
+
+.leaders2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.paragraph1 {
+    width: 73%;
+    padding-left: 11%;
+    /* padding-right: 17%; */
+    margin-top: 6%;
+}
+
+.paragraph1 p {
+    margin-top: 3%;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.paragraph1 h5 {
+    margin-top: 2%;
+}
+
+.paragraph1 hr {
+    height: 1.5px;
+    width: 177px;
+    border-width: 0;
+    color: darkblue;
+    background-color: darkblue;
+    margin-top: 20px;
+}
+
+.paragraph1 .icon i{
+    width: 37px;
+    height: 33px;
+    padding-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(135 200 221);
+    font-size: 23px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+    
+.paragraph1 .icon i:hover{
+    background-color: rgb(6, 6, 73);
+    color:  rgb(135 200 221);
+}
+.paragraph1 .icon svg{
+    width: 37px;
+    height: 33px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color:  rgb(135 200 221);
+    font-size: 23px;
+    margin-bottom: -7px;
+}
+.paragraph1 .icon svg:hover{
+    background-color: rgb(6, 6, 73);
+    color:  rgb(135 200 221);
+}
+svg:hover path{
+    fill:rgb(135 200 221) !important;
+    stroke:rgb(135 200 221) !important;
+}
+.L2 {
+    width: 40%;
+    margin-top: 85px;
+    /* padding-right: 17%; */
+    padding-top: 105px;
+}
+
+.L2 .l2-image {
+    width: 360px;
+    height: 360px;
+    /* transform: rotate(45deg); */
+    overflow: hidden;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.L2 img {
+    width: 360px;
+    height: 360px;
+    /* transform: rotate(-45deg); */
+    position: absolute;
+    /* margin-top: -61px;
+    margin-left: -63px; */
+}
+
+
+/*============================================================= Our leaders end ========================================================*/
+
+
+/*============================================================= Our Team start ========================================================*/
+
+.all-members {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(167, 240, 200,0.22);
+    margin-top: 10%;
+}
+.all-members h1{
+    text-align: center;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+.setting{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 10%;
+    justify-content: center;
+}
+.m{
+    width: 300px;
+    height: 425px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.m:hover .m-image img{
+    opacity:0.2;
+}
+.m:hover .name{
+    background-color: rgb(6, 6, 73);
+    color: white;
+    overflow: hidden;
+    height: 100%;
+}
+.m:hover .s-icons{
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+}
+.m-image{
+    width: 300px;
+    height: 350px;
+    /* border-radius: 13px; */
+
+}
+.m-image .s-icons{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 14%;
+    display: none;
+}
+.m-image .s-icons i{
+    width: 37px;
+    height: 33px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color:  rgb(135 200 221);
+    font-size: 23px;
+}
+.m-image .s-icons i:hover{
+   background-color: #14539a;
+    color: white;
+}
+.m-image img{
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+}
+.name{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+/*============================================================= Our Team end ========================================================*/
+
+
+/*============================================================= supporting Team start ========================================================*/
+
+.supportingTeam h1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.supportingTeam {
+    height: 100%;
+    width: 100%;
+}
+.mannage{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.s{
+    width: 300px;
+    height: 275px;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 13px;
+}
+.s-image{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+
+}
+.s-image .s-icons{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 81px;
+    display: none;
+    z-index:2;
+}
+.s-image .s-icons i{
+    width: 37px;
+    height: 33px;
+    padding-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(135 200 221);
+    font-size: 23px;
+    padding-left: 10px;
+}
+.s-image .s-icons i:hover{
+    background-color: rgb(1, 1, 35);
+    color:white;
+}
+.s-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.s:hover .s-image img{
+    opacity:0.2;
+}
+.s:hover .s-icons{
+    display: block;
+    cursor: pointer;
+}
+.name1-team{
+    /* text-align: center; */
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 14px;
+    /* padding-right: 89px; */
+    text-align: center;
+
+}
