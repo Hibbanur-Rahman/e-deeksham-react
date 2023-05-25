@@ -1,0 +1,205 @@
+.img-div {
+    width: 100%;
+}
+
+.img-about {
+    width: 100%;
+    height: 244px;
+    /* border-top: none; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+}
+.main{
+    display: flex;
+    width: 91%;
+    padding: 60px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    margin: auto;
+
+}
+.col-1{
+    display: block;
+    width: 50%;
+    padding: 40px;
+    padding-left: 0px;
+}
+.col-2{
+    display:block;
+  
+    width: 50%;
+    padding: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.div3{
+    width: 95%;
+    display: flex;
+    padding-left: 60px;
+    margin: auto;
+}
+.support{
+    width: 40%;
+
+        /* width: 60%;
+        /* height: 20%; */
+        /* background-color: rgb(255, 255, 255);
+        padding: 40px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */ 
+
+}
+.support p{
+    text-align: justify;
+    padding-right: 60px;
+}
+.mail-us{
+    width: 18.3%;
+    /* height: 20%; */
+        background-color: rgb(255, 255, 255);
+        padding: 40px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.mail-us i{
+    font-size: 50px;
+
+}
+.call-us i{
+    font-size: 50px;
+    
+}
+.call-us{
+    width: 18.3%;
+    /* height: 20%; */
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 35px;
+}
+@media (max-width:1300px){
+
+    .img-div {
+        width: 100%;
+    }
+    
+    .img-about {
+        width: 100%;
+        height: 244px;
+        /* border-top: none; */
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: white;
+    }
+    .main{
+        display: block;
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    
+    
+    }
+    .col-1{
+        display: block;
+        width: 92%;
+        padding: 0px;
+        padding-left: 0px;
+        margin: auto;
+    }
+    .col-2{
+        display:block;
+      
+        width: 92%;
+        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: auto;
+    }
+    
+    .div3{
+        width: 92%;
+        display: block;
+        padding-left: 0px;
+        margin: auto;
+    }
+    .support{
+        width: 100%;
+    
+            /* width: 60%;
+            /* height: 20%; */
+            /* background-color: rgb(255, 255, 255);
+            padding: 40px;
+            margin-right: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */ 
+    
+    }
+    .support p{
+        text-align: justify;
+        padding-right: 0px;
+    }
+    .mail-us{
+        width: 100%;
+        /* height: 20%; */
+            background-color: rgb(255, 255, 255);
+            padding: 8px 0px;
+            margin-right: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .mail-us h3{
+        padding-left: 23px;
+        margin-top: 0px;
+    }
+    .mail-us p{
+        padding-left: 23px;
+        margin-top: 0px;
+        color: rgb(113, 107, 107);
+    }
+    .mail-icon{
+        width: 100%;
+        padding-left: 20px;
+        font-size: 75px;
+        margin-top: 0px;
+    
+    }
+    .call-us i{
+        font-size: 50px;
+        
+    }
+    .call-us{
+        width: 100%;
+        /* height: 20%; */
+        margin-top: 15px;
+        background-color: rgb(255, 255, 255);
+        padding: 8px 0px;
+        margin-right: 0px;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 0px;
+    }
+    .call-icon{
+        width: 100%;
+        padding-left: 20px;
+        font-size: 75px;
+        margin-top: 0px;
+    
+    }
+    .call-us h3{
+        padding-left: 23px;
+        margin-top: 0px;
+    }
+    .call-us p{
+        padding-left: 23px;
+        margin-top: 0px;
+        color: rgb(113, 107, 107);
+    
+    }
+}

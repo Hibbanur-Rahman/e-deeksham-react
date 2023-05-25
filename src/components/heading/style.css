@@ -47,13 +47,15 @@ body {
 
 .head-title {
     width: 37%;
-    margin-top: 10px;
+    margin-top: 26px;
+    color: rgb(98, 30, 4);
+    font-weight: bold;
 }
 
 /*============================================================= Header end ========================================================*/
 
 
-/*============================================================= Navbar Start ========================================================*/
+/* ============================================================= Navbar Start ======================================================== */
 
 .navbar {
     display: flex;
@@ -91,7 +93,6 @@ body {
     padding-right: 6px;
     height: 50px;
     width: fit-content;
-    /* min-width: 90px; */
     box-sizing: border-box;
     border-radius: 5px;
     cursor: pointer;
@@ -133,11 +134,6 @@ body {
     border-radius: 5px;
 
 }
-
-/* .dropdown:hover{
-    background-color: white;
-    color:#002868
-} */
 .dropdown button {
 
     background: none;
@@ -173,7 +169,6 @@ body {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     color: white;
-    /* border: 1px solid black; */
 }
 
 .dropdown:hover .dropdown-options a {
@@ -203,6 +198,6 @@ body {
     height: 6px;
     background-color: #eef3f3;
     margin-top: 10px;
-}
+} 
 
 /*============================================================= Navbar end ========================================================*/

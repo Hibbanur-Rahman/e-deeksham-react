@@ -13,7 +13,7 @@ function Footer() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque hic, id ea repellendus, placeat,
                             repudiandae.</p>
                     </div>
-                    <div className="footer-second">
+                    {/* <div className="footer-second">
                         <h3>Quick Links</h3>
                         <ul>
                             <li>Home</li>
@@ -24,7 +24,7 @@ function Footer() {
                             <li>Insight</li>
                             <li>FAQs</li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="footer-third">
                         <h3>Contact Us</h3>
                         <div>
@@ -43,7 +43,10 @@ function Footer() {
                                 +91-9885166968
                             </p>
                         </div>
-                        <h3>Follow Us</h3>
+                        
+                    </div>
+                    <div>
+                    <h3>Follow Us</h3>
                         <i className="fab fa-facebook-f face" />
                         <i className="fab fa-twitter tweet" />
                         <i className="fab fa-youtube  yt" />

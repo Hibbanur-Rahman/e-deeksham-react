@@ -32,7 +32,7 @@ body {
     padding: 44px 60px 40px 60px;
   }
   .about-manuu{
-    font-family: 'roboto',sans-serif;
+    font-family: 'poppins',sans-serif;
     width: 100%;
     margin: auto;
     background-color: white;
@@ -43,14 +43,18 @@ body {
   .manuu-div div:nth-child(1){
     width:50%;
   }
-  .heading{
+  .heading1{
     
     margin: 2px 1px 0px 10px;
     background-color: white;
+    font-size: 18px;
+    margin-left: 20px;
   }
   .manuu-div div:nth-child(1) .h2{
-    margin: 1px 0px 24px 13px;
+    margin: 1px 0px 0px 13px;
     color: rgb(61, 61, 136);
+    font-size: 36px;
+    line-height: 45px;
   }
   .img-div-manuu {
     padding: 0px 60px 35px 60px;
@@ -64,6 +68,7 @@ body {
   .h3{
     margin: 10px 51px 5px 51px;
     color: rgb(61, 61, 136);
+    font-size: 30px;
   }
   .about-dept{
     width:70%;

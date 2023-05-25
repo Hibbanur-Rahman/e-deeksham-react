@@ -149,40 +149,6 @@ function Team() {
                             <p><em>Assistant Professor</em></p>
                         </div>
                     </div>
-                    {/* member 5 */}
-                    {/* <div class="m">
-              <div class="m-image">
-                  <div class="s-icons">
-                      <i class="fab fa-facebook-f "></i>
-                      <i class="fab fa-twitter "></i>
-                      <i class="fab fa-youtube"></i>
-                  </div>
-                  <img src="./images/altamash sir1.png" alt="altamash sir">
-                  <img src="./images/dummy_profile.png" alt="dummy photo">
-              </div>
-              <div class="name">
-                  <h3>Mr. Altamash Khan</h3>
-                  <p><em>Web Developer</em></p>
-
-              </div>
-          </div> */}
-                    {/* member 6 */}
-                    {/* <div class="m">
-              <div class="m-image">
-                  <div class="s-icons">
-                      <i class="fab fa-facebook-f "></i>
-                      <i class="fab fa-twitter "></i>
-                      <i class="fab fa-youtube"></i>
-                  </div>
-                  <img src="./images/sailakumari lella1.jpg" alt="sailakumari lella">
-                  <img src="./images/dummy_profile.png" alt="dummy photo">
-              </div>
-              <div class="name">
-                  <h3>Mrs. Sailakumari Lella</h3>
-                  <p><em>Research Associate</em></p>
-
-              </div>
-          </div> */}
                 </div>
             </section>
             {/* ======================================================= Team Member End ====================================================== */}

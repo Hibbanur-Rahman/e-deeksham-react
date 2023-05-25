@@ -1,0 +1,8 @@
+
+@media only screen and (max-width: 1300px){
+    #root{
+        width: 316%;
+        margin: 0px;
+        padding: 0px;
+    }
+}

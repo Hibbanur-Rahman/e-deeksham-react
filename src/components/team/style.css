@@ -401,3 +401,444 @@ svg:hover path{
     text-align: center;
 
 }
+/*============================================================= responsiveness start ========================================================*/
+
+@media only screen and (max-width:1300px) {
+    /*============================================================= Our leaders start ========================================================*/
+
+    .OurLeaders {
+        height: auto;
+        width: auto;
+        background: #fff;
+        overflow: hidden;
+    }
+
+    .OurLeaders h1 {
+        width: 8em;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 5%;
+    }
+
+    .leaders1 {
+        height: 100%;
+        width: 100vw;
+        margin-top: -128px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #fff;
+        overflow: hidden;
+    }
+
+    .paragraph {
+        margin-top: 7%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .icon {
+        margin-top: 3%;
+        display: flex;
+    }
+
+    .paragraph .icon i {
+        width: 37px;
+        height: 33px;
+        padding-top: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: rgb(135 200 221);
+        font-size: 23px;
+        margin-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .paragraph .icon i:hover {
+        background-color: rgb(6, 6, 73);
+        color: rgb(135 200 221);
+    }
+
+    .paragraph .icon svg {
+        width: 37px;
+        height: 33px;
+        padding: 5px;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: rgb(135 200 221);
+        font-size: 23px;
+        margin-bottom: -7px;
+    }
+
+    .paragraph .icon svg:hover {
+        background-color: rgb(6, 6, 73);
+        fill: rgb(135 200 221); 
+    }
+
+    .paragraph p {
+        margin-top: 5%;
+        /* margin-left: 20px; */
+        margin-right: 60px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .paragraph h3 {
+        font-size: 35px;
+    }
+
+    .paragraph h5 {
+        margin-top: 2%;
+        font-size: 28px;
+    }
+
+    .paragraph hr {
+        height: 1.5px;
+        width: 177px;
+        border-width: 0;
+        color: darkblue;
+        background-color: darkblue;
+        margin-top: 20px;
+    }
+
+
+
+    .L1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .L1 .l1-image {
+        width: 360px;
+        height: 360px;
+        /* transform: rotate(45deg); */
+        overflow: hidden;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .L1 img {
+        width: 360px;
+        height: 360px;
+        /* transform: rotate(-45deg); */
+        position: absolute;
+        /* margin-top: -61px;
+    margin-left: -63px; */
+
+    }
+
+
+
+    .leaders2 {
+        height: 100%;
+        width: 100%;
+        margin-top: -128px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background: #fff;
+        overflow: hidden;
+
+    }
+
+    .L2 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .L2 .l2-image {
+        width: 360px;
+        height: 360px;
+        /* transform: rotate(45deg); */
+        overflow: hidden;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .L2 img {
+        width: 360px;
+        height: 360px;
+        /* transform: rotate(-45deg); */
+        position: absolute;
+        /* margin-top: -61px;
+    margin-left: -63px; */
+
+
+    }
+
+    .paragraph1 {
+        width: 100%;
+        margin-top: 7%;
+    }
+
+    .paragraph1 p {
+        margin-top: 5%;
+        /* margin-left: 20px; */
+        margin-right: 60px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .paragraph1 h5 {
+        margin-top: 2%;
+        font-size: 28px;
+    }
+
+    .paragraph1 h3 {
+        font-size: 35px;
+    }
+
+    .paragraph1 hr {
+        height: 1.5px;
+        width: 177px;
+        border-width: 0;
+        color: darkblue;
+        background-color: darkblue;
+        margin-top: 20px;
+    }
+
+    .paragraph1 .icon i {
+        width: 37px;
+        height: 33px;
+        padding-top: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: rgb(135 200 221);
+        font-size: 23px;
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+
+    .paragraph1 .icon i:hover {
+        background-color: rgb(6, 6, 73);
+        color: rgb(135 200 221);
+    }
+
+    .paragraph1 .icon svg {
+        width: 37px;
+        height: 33px;
+        padding: 5px;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: rgb(135 200 221);
+        font-size: 23px;
+        margin-bottom: -7px;
+    }
+
+    .paragraph1 .icon svg:hover {
+        background-color: rgb(6, 6, 73);
+        color: rgb(135 200 221);
+    }
+
+    svg:hover path {
+        fill: rgb(135 200 221) !important;
+        stroke: rgb(135 200 221) !important;
+    }
+
+
+
+
+    /*============================================================= Our leaders end ========================================================*/
+
+
+    /* ======================================================= Team Member Start ====================================================== */
+    .all-members {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(167, 240, 200, 0.22);
+        margin-top: 10%;
+    }
+
+    .all-members h1 {
+        text-align: center;
+        margin-bottom: 4%;
+        padding-top: 3%;
+        font-size: 50px;
+    }
+
+    .setting {
+        display: flex;
+        /* flex-wrap: wrap;
+        margin-left: 15%;
+        margin-right: 10%; */
+        justify-content: center;
+    }
+
+    .m {
+        width: 100%;
+        height: 450px;
+        margin: 0px;
+        margin-bottom: 25px;
+        background-color: white;
+        border-radius: 13px;
+        overflow: hidden;
+    }
+
+    .m:hover .m-image img {
+        opacity: 0.2;
+    }
+
+    .m:hover .name {
+        background-color: rgb(6, 6, 73);
+        color: white;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .m:hover .s-icons {
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .m-image {
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        /* border-radius: 13px; */
+
+    }
+
+    .m-image .s-icons {
+        position: absolute;
+        margin-left: 19%;
+        margin-top: 45%;
+        display: none;
+    }
+
+    .m-image .s-icons i {
+        width: 35px;
+        height: 30px;
+        padding: 5px;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: rgb(135 200 221);
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .m-image .s-icons i:hover {
+        background-color: #14539a;
+        color: white;
+    }
+
+    .m-image img {
+        width: 100%;
+        height: 350px;
+        border-radius: 13px;
+    }
+
+    .name {
+        text-align: center;
+        padding-top: 20px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .name h3 {
+        font-size: 28px;
+    }
+
+    .name p {
+        font-size: 25px;
+    }
+
+    .name1-team h3 {
+        font-size: 28px;
+    }
+
+    /* ======================================================= Team Member end ====================================================== */
+
+
+    /* ======================================================= Supporting Team Start ====================================================== */
+
+    .supportingTeam h1 {
+        text-align: center;
+        margin-top: 3%;
+        font-size: 50px;
+    }
+
+    .supportingTeam {
+        height: 100%;
+        width: 100%;
+    }
+
+    .mannage {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+
+    .s {
+        width: 100%;
+        height: 340px;
+        margin: auto;
+        margin-bottom: 70px;
+        background-color: white;
+        border-radius: 13px;
+    }
+
+    .s-image {
+        width: 100%;
+        height: 290px;
+        margin: 20px;
+
+    }
+
+    .s-image .s-icons {
+        position: absolute;
+        margin-left: 66px;
+        margin-top: 116px;
+        display: none;
+        z-index: 2;
+    }
+
+    .s-image .s-icons i {
+        width: 40px;
+        height: 35px;
+        padding-top: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: rgb(135 200 221);
+        font-size: 30px;
+    }
+
+    .s-image .s-icons i:hover {
+        background-color: rgb(1, 1, 35);
+        color: white;
+    }
+
+    .s-image img {
+        width: 90%;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+    .s:hover .s-image img {
+        opacity: 0.2;
+    }
+
+    .s:hover .s-icons {
+        display: block;
+        cursor: pointer;
+    }
+
+    .name1-team{
+        /* text-align: center; */
+        padding-top: 20px;
+        line-height: 25px;
+        font-size: 14px;
+        /* padding-right: 89px; */
+        text-align: center;
+
+    }
+
+    .name1-team p {
+        font-size: 25px;
+    }
+}
+
+/*============================================================= media Query end ========================================================*/

@@ -9,6 +9,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 /*============================================================= Our Team start ========================================================*/
 
 .ourteam {
@@ -32,37 +33,43 @@ body {
 
 /*============================================================= mid start ========================================================*/
 
-.mid{
+.mid {
     height: 100%;
     width: 100%;
 }
-.mannage-contact{
+
+.mannage-contact {
     height: 100%;
     width: 100%;
     /* margin-right: 10%; */
 }
-.map{
+
+.map {
     width: 66%;
     /* margin-top: 5%; */
     /* margin-left: 10%; */
     display: flex;
     margin: auto;
 }
-.map iframe{
+
+.map iframe {
     margin-top: 30px;
 }
-.mannage-contact h1{
+
+.mannage-contact h1 {
     text-align: center;
     margin-bottom: 5%;
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 47px;
 }
-.details{
-   margin-left: 30px;
-   height: 500px;
+
+.details {
+    margin-left: 30px;
+    height: 500px;
 
 }
-.details div{
+
+.details div {
     margin-bottom: 30px;
     height: 160px;
     width: 350px;
@@ -70,48 +77,56 @@ body {
     box-shadow: 2px 2px 2px 2px rgb(244, 240, 240);
     padding-top: 10px;
 }
-.details div i{
+
+.details div i {
     margin-left: 25px;
     /* margin-top: 4px; */
     font-size: 40px;
 }
-.details div h3{
+
+.details div h3 {
     margin-left: 25px;
     margin-top: 8px;
 }
-.details div p{
+
+.details div p {
     margin-left: 25px;
     margin-top: 8px;
 }
+
 /*============================================================= mid end ========================================================*/
 
- /* ======================================================= last section start ======================================================  */
- .last{
+/* ======================================================= last section start ======================================================  */
+.last {
     margin-top: 100px;
     height: 100%;
     width: 100%;
-    background-color:  rgb(236, 249, 243);
+    background-color: rgb(236, 249, 243);
     padding-bottom: 100px;
- }
- .last h1{
+}
+
+.last h1 {
     text-align: center;
     font-size: 40px;
     padding-top: 70px;
     padding-bottom: 10px;
- }
- .last p{
+}
+
+.last p {
     width: 52%;
     text-align: center;
     margin: auto;
 }
-.last .contact{
+
+.last .contact {
     width: 53%;
     /* padding-left: 20%; */
     /* padding-right: 20%; */
     padding-top: 2%;
     margin: auto;
 }
-.contact input{
+
+.contact input {
     height: 50px;
     width: 350px;
     box-shadow: 5px 8px 39px 8px rgb(229, 245, 238);
@@ -121,21 +136,25 @@ body {
     font-size: 15px;
 
 }
-.contact input:focus{
+
+.contact input:focus {
     outline: none;
 }
-.contact input[type=text1]{
+
+.contact input[type=text1] {
     padding-left: 20px;
 }
+
 /* .input-data{
     box-shadow: 3px 3px 3px 3px grey;
 } */
-.last div{
+.last div {
     display: grid;
     grid-template-columns: auto auto auto;
     /* gap: 20px 50px; */
 }
-.contact textarea{
+
+.contact textarea {
     font-size: 15px;
     padding-left: 20px;
     padding-top: 20px;
@@ -146,39 +165,236 @@ body {
     border: none;
     box-shadow: 2px 2px 2px 2px rgb(236, 249, 243);
 }
-.contact textarea:focus{
+
+.contact textarea:focus {
     outline: none;
 }
-.button1{
-   background-color:darkblue;
-   color: white;
-   height: 40px;
-   width: 102px;
-   margin-left: 45%;
-   margin-top: 20px;
-   border-radius: 8px;
-   display: block;
-   border: none;
-   font-size: 16px;
-   cursor: pointer;
-   text-align: center;
+
+.button1 {
+    background-color: darkblue;
+    color: white;
+    height: 40px;
+    width: 102px;
+    margin-left: 45%;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: block;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }
-.button1:hover{
+
+.button1:hover {
     background-color: #003cff;
     color: white;
 }
-.input-data label{
-    position:absolute;
+
+.input-data label {
+    position: absolute;
     padding-top: 20px;
     padding-left: 10px;
     transition: all 0.3s ease;
     color: grey;
-    z-index:1;
+    z-index: 1;
     font-size: 14px;
 }
-.input-data input:focus ~ label,
-.input-data input:valid ~label{
-    transform:translateX(-1px);
-    margin-top:-37px;
+
+.input-data input:focus~label,
+.input-data input:valid~label {
+    transform: translateX(-1px);
+    margin-top: -37px;
 }
- /* ======================================================= last section end ======================================================  */
+
+/* ======================================================= last section end ======================================================  */
+
+@media only screen and (max-width:1300px) {
+    .mannage-contact h1{
+        font-size: 100px;
+    }
+    .mid {
+        height: auto;
+        width: 100%;
+    }
+
+    .mannage {
+        height: 100%;
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .map iframe {
+        width: 90%;
+        height: 1200px;
+        margin: auto;
+    }
+
+    .mannage h1 {
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        font-size: 45px;
+    }
+
+    .details {
+        height: auto;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .details div {
+        height: auto;
+        width: 90%;
+        margin: 10%;
+        border-radius: 48px;
+        box-shadow: 15px 15px 11px -9px rgb(244, 240, 240);
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        padding: 30px;
+    }
+
+    .details div i {
+        margin-left: 25px;
+        font-size: 155px;
+        color: #003cff;
+    }
+
+    .details div h3,
+    p {
+        margin-left: 25px;
+        margin-top: 8px;
+    }
+
+    .details div h3 {
+        font-size: 90px;
+    }
+
+    .details div p {
+        font-size: 50px;
+    }
+
+    .last {
+        margin-top: 30px;
+        height:auto;
+        width: 100%;
+        background-color: rgb(236, 249, 243);
+        padding-bottom: 100px;
+    }
+
+    .last h1 {
+        text-align: center;
+        font-size: 100px;
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+
+    .last p {
+        font-size: 43px;
+        margin: 20px;
+        line-height: 50px;
+        padding-bottom: 10px;
+        width: 97%;
+        margin: auto;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(148, 146, 146);
+    }
+
+    .last .contact {
+        width: 100%;
+        height: 450px;
+        /* margin-top: 8%; */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact input:focus {
+        outline: none;
+    }
+
+    .contact input[type=text1] {
+        padding-left: 20px;
+    }
+
+    .contact input {
+        font-size: 45px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .contact .input-data {
+        margin-top: 120px;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+
+    .last .contact div {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 20px;
+        /* gap: 20px 50px; */
+    }
+
+    .contact textarea {
+        font-size: 50px;
+        max-height: 250px;
+        min-height: 100px;
+        margin: auto;
+        border: none;
+        box-shadow: 2px 2px 2px 2px rgb(236, 249, 243);
+        min-width: 90%;
+        max-width: 90%;
+    }
+
+    .contact textarea:focus {
+        outline: none;
+    }
+
+    .button1 {
+        background-color: darkblue;
+        color: white;
+        height: 60px;
+        width: 110px;
+        /* margin-left: 48%; */
+        margin-top: 20px;
+        border-radius: 8px;
+        display: block;
+        border: none;
+        font-size: 25px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .button1:hover {
+        background-color: #003cff;
+        color: white;
+    }
+
+    .input-data label {
+        position: absolute;
+        padding-top: 20px;
+        padding-left: 10px;
+        transition: all 0.3s ease;
+        color: grey;
+        z-index: 1;
+        font-size: 40px;
+    }
+
+    .input-data input:focus~label,
+    .input-data input:valid~label {
+        transform: translateX(-1px);
+        margin-top: -75px;
+    }
+
+}

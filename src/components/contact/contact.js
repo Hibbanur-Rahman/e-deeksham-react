@@ -22,7 +22,7 @@ function Contact() {
                             <div className="mailUs">
                                 <i className="bi bi-envelope" />
                                 <h3>Mail Us</h3>
-                                <p>edeeksham@gmail.com</p>
+                                <p>edeekshaam@gmail.com</p>
                             </div>
                             <div className="callUs">
                                 <i className="bi bi-telephone" />
